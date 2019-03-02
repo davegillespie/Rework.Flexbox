@@ -1,0 +1,67 @@
+* {
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+  padding: 3px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbox {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.mainbodybox {
+  margin: 10px;
+  display: flex;
+}
+
+.bodyboxleft {
+ width: 75%;
+ height: 300px;
+}
+
+.bodyboxright {
+  width: 25%;
+  height: 300px;
+}
+
+/* .footbox {
+  margin: 10px;
+  display: flex;
+} */
+
+.copyright {
+  margin-right: 40%;
+}
+
+.footlist {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
